@@ -1,0 +1,12 @@
+h1 {
+    color: rgb(226, 170, 15);
+}
+h2 {
+    color: rgb(85, 125, 143);
+    letter-spacing: .2em;
+    text-transform: uppercase;
+
+}
+header p {
+    padding: 50px
+}

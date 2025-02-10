@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    background-color: lightgray;
+    padding: 20px;
+
+}
+
+/* ---------------Main---------------- */
+main{
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px ;
+    text-align: center;
+    background-color: aliceblue;
+
+
+}
+
+header {
+    background-image: url('../images/reuniao.jpg');
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 400px; 
+    padding: 100px  ;
+ 
+}
+
+.conteudos {
+    border-bottom: 1px solid gray;
+    text-align: left;   
+    margin-bottom: 30px;
+}
+
+
+.conteudos p {
+    padding: 20px 0 ;
+}
+
+
+.subs img{   
+    display:flexbox;
+    padding: 20px ;
+    width: 250px;
+    height: auto;
+}
+.button {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.button:hover {
+    background-color: chocolate;
+}
+
+footer {
+background-color: orange;
+text-align: center;
+padding: 50px;
+}
+
+header .button {
+ color: rgb(255, 255, 255);
+ padding: 10px 15px;
+ background-color: rgb(255, 145, 0);
+ border-radius: 10px;
+
+}

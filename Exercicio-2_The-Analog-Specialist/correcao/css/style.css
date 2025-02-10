@@ -1,0 +1,128 @@
+/* ------------Estilos GLOBAL ------------------ */
+
+/* .part1 {
+    font-size: 1.5em;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.part2 {
+    font-size: 2.0em;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+ */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    background-color: lightgray;
+}
+
+/*links */
+
+a:link{
+    text-decoration: none;
+    color: darkslategray;
+}
+a:visited {
+    color: darkgrey;
+}
+a:hover {
+    color: tomato;
+}
+a.active {
+    color:tomato;
+    font-weight:800;
+}
+/* Dar padding e center em tudo  */
+
+.center-pad-top{
+    text-align: center;
+    padding: 10px 0 ;
+}
+
+
+
+ /* -------------------------------Main --------------------------- */
+main {
+    width: 80%;
+
+    min-width: 800px;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 2em ;
+    border: 8px double darkslategray;
+    border-radius: 12px;
+    background-color: white;
+}
+
+main > * {
+    width: 600px;
+    margin: 20px auto;
+}
+
+/* ----------------------logo ------------------------- */
+
+/* header {
+    text-align: center;
+
+} */
+
+header span {
+    display: block;
+    line-height: .7em;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+header span.analog {
+    font-weight: 700;
+    letter-spacing: .1em;
+    font-size: 1.2em;
+}
+
+/* --------------- Nav ---------------------- */
+
+nav ul {
+    border-top: 2px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+
+/* ------------------------ conteudos ----------------- */
+/* section.conteudos h1 {
+    text-align: center;
+} */
+section.conteudos img {
+    filter: sepia(1);
+}
+
+
+/* section.conteudos  {
+    text-align: center;
+} */
+
+footer {
+    border-top: 1px solid gray;
+/*     padding: 20ps 0;
+    text-align: center; */
+}
+
+
