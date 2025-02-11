@@ -1,0 +1,13 @@
+h1 {
+    font-size: 1.8em;
+    color: rgb(209, 53, 53);
+}
+header .frasemaior {
+    font-size: 3.8em;
+    color: rgb(20, 138, 138);
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+header p {
+    font-size: 1.4em;
+}

@@ -9,18 +9,22 @@ body {
     font-weight: 400;
     background-color: lightgray;
     padding: 20px;
+    align-items: center; 
 
 }
 
 /* ---------------Main---------------- */
 main{
-    width: 80%;
-    margin: 50px auto;
+
     padding: 20px ;
     text-align: center;
     background-color: aliceblue;
 
 
+}
+main > * {
+    width: 1000px;
+    margin: 20px auto;
 }
 
 header {
@@ -60,11 +64,6 @@ header {
     background-color: chocolate;
 }
 
-footer {
-background-color: orange;
-text-align: center;
-padding: 50px;
-}
 
 header .button {
  color: rgb(255, 255, 255);
@@ -72,4 +71,10 @@ header .button {
  background-color: rgb(255, 145, 0);
  border-radius: 10px;
 
+}
+
+footer {
+background-color: orange;
+text-align: center;
+padding: 50px;
 }
