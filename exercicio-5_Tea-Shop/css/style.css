@@ -14,12 +14,12 @@ body {
 main {
     width: 640px;
     margin: 0 auto;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(230, 226, 226);
 
 
 }
 header {
-    padding: 40px 0
+    padding: 40px 0;
 }
 header > img {
 margin: 30px 0 ;
@@ -28,11 +28,11 @@ margin: 30px 0 ;
 .titulo{
 display: flex;
 justify-content: center;
+margin: 30px 0 ;
 
 }
 .btn {
     padding: 0.6em 0.9em;
-    margin: 10px;
     background-color: rgb(2, 3, 10);
     color: white;
     text-decoration: none;
@@ -41,8 +41,44 @@ justify-content: center;
 }
 .artigos {
     display: flex;
-    justify-content:space-between;
-    align-items: stretch;
+    justify-content: space-evenly;
+    padding:40px 0px;
+    border-bottom: 3px solid darkslategray;   
+}
+.artigos div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    gap: 15px; 
+  
+
+}
+
+aside {
+    padding:30px 0;
+}
+.contactos {
+    border-top: 3px solid darkslategray;
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px;
+    text-align: center;
+    padding: 30px 20px;
+}
+.contactos div {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 150px;
+}
+.contactos img {
+    max-width: 100px; /* Ajuste conforme necessário */
+    height: auto;
+}
+footer {
     padding-bottom: 50px;
-    gap: 30px;
 }

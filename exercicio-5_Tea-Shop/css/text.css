@@ -5,6 +5,17 @@ h1 {
 }
 .artigos h1  {
     font-family:'Times New Roman', Times, serif;
-    font-size: 2.3em;
+    font-size: 2em;
+    font-weight: 200;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 1em;
+ 
+}
+aside h2 {
+    text-transform:none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2em;
     font-weight: 200;
 }
