@@ -1,6 +1,14 @@
 h1 {
-    font-size: 1.8em;
+    text-transform: uppercase;
+    font-size: 1.3em;
     color: rgb(209, 53, 53);
+}
+h2 {
+    font-size: 2em;
+    color: rgb(20, 138, 138);
+}
+p {
+    font-size: 1.3em;
 }
 header .frasemaior {
     font-size: 3.8em;
@@ -14,4 +22,25 @@ header p {
 }
 a.btn {
     font-size: 1.5em;
+}
+.part1 {
+    color: black;
+    text-transform: none;
+    font-size: 1.5em;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.part2 {
+    color: black;
+    font-size: 2.0em;
+    text-transform: none;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+footer p {
+    display: flex;
+    justify-content:space-evenly;
+    color: azure;
 }
