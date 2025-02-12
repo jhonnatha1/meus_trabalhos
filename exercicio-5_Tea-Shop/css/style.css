@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Patron-Regular', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+}
+
+main {
+    width: 640px;
+    margin: 0 auto;
+    background-color: rgb(230, 230, 230);
+
+
+}
+header {
+    padding: 40px 0
+}
+header > img {
+margin: 30px 0 ;
+
+}
+.titulo{
+display: flex;
+justify-content: center;
+
+}
+.btn {
+    padding: 0.6em 0.9em;
+    margin: 10px;
+    background-color: rgb(2, 3, 10);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.artigos {
+    display: flex;
+    justify-content:space-between;
+    align-items: stretch;
+    padding-bottom: 50px;
+    gap: 30px;
+}
