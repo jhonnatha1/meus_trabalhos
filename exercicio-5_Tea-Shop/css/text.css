@@ -1,13 +1,21 @@
 h1 {
     font-family:'Times New Roman', Times, serif;
-    font-size: 4.2em;
+    font-size: 3em;
     font-weight: 200;
 }
-.artigos h1  {
-    font-family:'Times New Roman', Times, serif;
-    font-size: 2em;
-    font-weight: 200;
+section.teas header h1 {
+    font-size: 3em;
+    font-weight: normal;
 }
+article.tea h1 {
+    font-size: 1.5em;
+}
+
+section.teas header h1 {
+    font-size: 3em;
+    font-weight: normal;
+}
+
 h2 {
     text-transform: uppercase;
     font-size: 1em;

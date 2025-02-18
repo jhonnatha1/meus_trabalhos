@@ -4,78 +4,99 @@
     border: none;
     box-sizing: border-box;
 }
+img {
+    max-width: 100%;
+}
+
 body {
     font-family: 'Patron-Regular', sans-serif;
-    font-size: 16px;
-    text-align: center;
-    background-color: rgb(235, 235, 235);
 }
 
-main {
+main, footer{
     width: 640px;
-    margin: 0 auto;
-    background-color: rgb(230, 226, 226);
+    padding: 15px;
+    margin: 20px auto;
+}
+    main {
+        background-color: #E8E8E6;
+        text-align: center;
+    }
 
 
-}
-header {
-    padding: 40px 0;
-}
-header > img {
-margin: 30px 0 ;
+header  img {
+margin: 10px 0 ;
 
 }
-.titulo{
-display: flex;
-justify-content: center;
-margin: 30px 0 ;
+/* section TEAS */
+section.teas header{
+padding: 30px 70px;
 
 }
-.btn {
-    padding: 0.6em 0.9em;
-    background-color: rgb(2, 3, 10);
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-
-}
-.artigos {
+section.tea-types {
     display: flex;
-    justify-content: space-evenly;
-    padding:40px 0px;
-    border-bottom: 3px solid darkslategray;   
+    gap: 15px;
 }
-.artigos div {
+article.tea {
+    height: 600px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    width: 177px;
-    margin: 0 auto;
-    gap: 5px; 
-  
+
+    flex:1;
 }
+article.tea > * {
+    flex: 1;
+    gap: 5px;
+}
+
+article.tea a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 15px;
+
+    flex: 0;
+}
+.tea-types {
+    display: flex;
+    gap:15px;
+ 
+}
+
+section.teas header {
+    padding: 30px 70px;
+}
+
+.tea-types .teas > * {
+  flex:1;
+  gap: 5px;
+
+}  
+ 
 aside {
     padding:30px 0;
 }
-.contactos {
-    border-top: 3px solid darkslategray;
-    display: flex;
-    justify-content: space-between; 
-    gap: 20px;
-    text-align: center;
-    padding: 30px 20px;
+.promo {
+    border-top: 2px solid gray;
+    margin-top: 50px;
+    padding: 35px 0;
 }
-.contactos div {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    width: 150px;
-}
-.contactos img {
-    max-width: 100px; /* Ajuste conforme necessário */
-    height: auto;
-}
+
 footer {
-    padding-bottom: 50px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+
+    display: flex;
+    gap: 10px;
+
+    margin-bottom: 50px;
+}
+
+footer ul li {
+    flex: 1;
 }
