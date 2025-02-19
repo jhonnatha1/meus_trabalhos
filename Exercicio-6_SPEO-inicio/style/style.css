@@ -108,6 +108,7 @@ section.newsletter{
 .news img {
     width: 200px;
     border-bottom: 5px solid #720000;
+
 }
 
 article.news h1 {
@@ -120,6 +121,19 @@ article.news h1 {
     text-align: start;
    
 
+}
+.cont-links {
+    display: flex;
+    flex-direction: column;
+    background-color: #720000;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color:#ffeded ;
+}
+.fname {
+    text-align: center;
 }
 
 
