@@ -1,0 +1,30 @@
+// @import 'variables'; //não precisa de usar nem _ nem extensão
+//@use 'variables'; // definir um namespace (contexto)
+//@use 'variables'; // definir um namespace (contexto)
+@use 'variables' as *;
+
+* {
+    margin:0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+/* $color: lightgreen;
+$font-main:'Courier New', Courier, monospace; */
+
+
+/* body {
+    background-color: variables.$light-color; //cor de fundo
+    color: variables.$dark-color;
+    font-family: variables.$font-stack;
+    line-height: 1.5;
+} */
+body {
+    background-color: $light-color; //cor de fundo
+    color: $dark-color;
+    font-family: $font-stack;
+    line-height: 1.5;
+}
+
+
