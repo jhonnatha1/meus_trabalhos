@@ -5,10 +5,10 @@
     box-sizing: border-box;
 }
 main {
-    width: 950px;
+    width: 1000px;
     margin: 20px auto;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #ffeded;
     border-color: #5c5a5ab2;
     border-style:groove;
 }
@@ -22,6 +22,7 @@ header {
     grid-template-rows: 300px 150px 50px ;
     align-items: center;
     column-gap: 20px;
+
 }
 .c2xr2 {
     grid-column: 2/-1;
@@ -60,6 +61,7 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     background-color: #3f3a3a;
     text-align: center;
+
 }
 nav img {
     width: 150px;
@@ -75,18 +77,50 @@ nav li {
     text-decoration: none;
 /* -------------------------------------------------------------------- SPEO INFO */
 }
-section h1 {
+.info {
     padding-top: 50px;
+}
+.info p {
+    padding: 20px 60px;
+}
+
+/*---------------------------------------------Destaques e imprensa */
+section.newsletter{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 70px;
+}
+
+.container {  
+     display: flex;
+    text-align: start;
+    padding: 20px 0;
+    gap: 10px;
+ 
+    
+}
+.news , .noticias {
+    background-color: #ffffff;
+ 
+}
+
+.news img {
+    width: 200px;
+    border-bottom: 5px solid #720000;
+}
+
+article.news h1 {
+    font-size: 1.5em;
+    
 }
 
 
+.newsletter h2 {
+    text-align: start;
+   
 
-
-
-
-
-
-
+}
 
 
 

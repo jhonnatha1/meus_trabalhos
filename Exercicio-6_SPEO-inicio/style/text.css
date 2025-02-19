@@ -1,8 +1,9 @@
-header h1 {
+header .header-h1 {  
+    font-size: 1.5em;
     text-transform: uppercase;
     color: #ffffff;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5em;
+
 
  
     
@@ -34,11 +35,11 @@ section h1 {
     font-size: 2.5em;
 }
 section p {
-    padding: 30px 70px;
     text-align: left;
     font-size: 1em;
 }
-section a {
+
+.info a {
     text-decoration: none;
     display: inline-block;
     padding: 0.4em 1.8em;
@@ -46,4 +47,8 @@ section a {
     box-shadow: 1px 1px 4px rgb(190, 190, 74) ;
     background-color: rgb(165, 0, 0);
     color: white;
+}
+.news h2 {
+    font-size: 1em;
+    color: #af0000;
 }
