@@ -79,7 +79,8 @@ nav li {
 /* -------------------------------------------------------------------- SPEO INFO */
 }
 .info {
-    padding-top: 50px;
+    padding: 40px 0px;
+    border-bottom: 3px solid #555151;
 }
 .info p {
     padding: 20px 60px;
@@ -87,10 +88,12 @@ nav li {
 
 /*---------------------------------------------Destaques e imprensa */
 section.destaques-imprensa{
+    background-color: rgb(228, 226, 226);
     height: auto;
     display: flex;
     flex-direction: column;
     padding: 0px 70px ;
+
 }
 
 .container {  
@@ -120,6 +123,7 @@ section.destaques-imprensa{
    
 
 }
+/*------------------------------------------------------NEWSLETTER------- */
 .cont-links {
     display: flex;
     flex-direction: column;
