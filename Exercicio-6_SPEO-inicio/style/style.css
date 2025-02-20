@@ -15,7 +15,7 @@ main {
 /*------------------------------------------------------------------- header*/
 header { 
     height: 500px;
-    background: url(/Exercicio-6_SPEO-inicio/images/index-banner.jpg) no-repeat center center ;
+    background: url(images/index-banner.jpg) no-repeat center center ;
     background-size: cover;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -187,6 +187,3 @@ section.destaques-imprensa{
 footer {
     background-color: #3f3a3a;
 }
-footer ul  {
-    list-style-type: disc; /* Outros valores: circle, square */
-} 
