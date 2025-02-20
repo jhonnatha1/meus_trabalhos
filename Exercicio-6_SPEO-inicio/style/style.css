@@ -86,7 +86,7 @@ nav li {
 }
 
 /*---------------------------------------------Destaques e imprensa */
-section.newsletter , .imprensa{
+section.destaques-imprensa{
     height: auto;
     display: flex;
     flex-direction: column;
@@ -99,14 +99,14 @@ section.newsletter , .imprensa{
     padding: 20px 0px ;
 
 }
-.news , .noticias {
+.news  {
     background-color: #ffffff;
     margin: 10px 10px ;
     box-shadow: 1px 1px 5px black;
  
 }
 
-.noticias > *{
+.news > *{
     width: 200px;
 }
 .news img  {
@@ -115,7 +115,7 @@ section.newsletter , .imprensa{
     
 }
 
-.newsletter h2 {
+.destaques h2 {
     text-align: start;
    
 
