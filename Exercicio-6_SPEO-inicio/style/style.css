@@ -15,7 +15,7 @@ main {
 /*------------------------------------------------------------------- header*/
 header { 
     height: 500px;
-    background: url(/Exercicio-6_SPEO-inicio/images/index-banner.jpg) no-repeat center center ;
+    background: url(../images/index-banner.jpg) no-repeat center center ;
     background-size: cover;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -118,26 +118,39 @@ section.destaques-imprensa{
     
 }
 
-.destaques h2 {
+.destaques-imprensa h2 {
     text-align: start;
    
 
 }
 /*------------------------------------------------------NEWSLETTER------- */
 .cont-links {
+    background-color: #720000;
     display: flex;
     flex-direction: column;
-    background-color: #720000;
-    height: 300px;
+    height: auto;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
-    color:#ffeded ;
+    justify-content:center;  
+
 }
-.fname {
-    text-align: center;
+.newsletter {
+    width: 350px;   
+    display: flex;
+    flex-direction: column;
+    height: auto; 
+    color:#ffeded ;
+    padding: 50px 0;
+    row-gap: 15px;
+}
+.icon-msg {
+    text-align: right;
+    padding: 3px;
 }
 
+
+
+
+/*------------------------------------------------PARCEIROS */
 ul li img{
     width: 80px ;
     padding: 20px 0;
@@ -163,7 +176,7 @@ footer ul li {
 
 /*--------------------------------definiçoes de botoes */
 
-.news:hover , .noticias:hover {
+.news:hover  {
 
     transform:scale(1.050);
     box-shadow:  0.3em 0.3em 1em black;
