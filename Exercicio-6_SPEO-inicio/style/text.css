@@ -24,7 +24,9 @@ header a  {
 
 
 }
-nav li {
+nav li a {
+    color: #fffefe;
+    text-decoration: none;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
 }
@@ -54,9 +56,6 @@ p {
     font-size: 1em;
     color: #af0000;
 }
-.news  h1  {
-    font-size: 1.2em;
-}
-.noticias h1  {
+.news  h1 , .noticias h1  {
     font-size: 1.2em;
 }
