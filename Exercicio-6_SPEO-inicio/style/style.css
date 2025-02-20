@@ -85,38 +85,34 @@ nav li {
 }
 
 /*---------------------------------------------Destaques e imprensa */
-section.newsletter{
-    height: 600px;
+section.newsletter , .imprensa{
+    height: auto;
     display: flex;
     flex-direction: column;
-    padding: 30px 70px;
+    padding: 0px 70px ;
 }
 
 .container {  
-     display: flex;
+    display: flex;
     text-align: start;
-    padding: 20px 0;
-    gap: 10px;
- 
-    
+    padding: 20px 0px ;
+
 }
 .news , .noticias {
     background-color: #ffffff;
-    margin: 40px 10px;
+    margin: 10px 10px ;
+    box-shadow: 1px 1px 5px black;
  
 }
 
-.news img {
+.noticias > *{
+    width: 200px;
+}
+.news img  {
     width: 200px;
     border-bottom: 5px solid #720000;
-
-}
-
-article.news h1 {
-    font-size: 1.5em;
     
 }
-
 
 .newsletter h2 {
     text-align: start;
@@ -140,6 +136,7 @@ article.news h1 {
 ul li img{
     width: 80px ;
     padding: 20px 0;
+    
 }
 footer {
     padding-top: 20px;
@@ -159,5 +156,11 @@ footer ul li {
     flex: 1;
 }
 
+/*--------------------------------definiçoes de botoes */
 
-/* box-shadow: 10px 5px 5px black;    usar mais tarde */
+.news:hover , .noticias:hover {
+
+    transform:scale(1.050);
+    box-shadow:  0.3em 0.3em 1em black;
+
+}
