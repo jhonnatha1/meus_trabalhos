@@ -145,6 +145,7 @@ section.destaques-imprensa{
 .icon-msg {
     text-align: right;
     padding: 3px;
+    border-bottom: 3px solid #720000;
 }
 
 
@@ -153,11 +154,11 @@ section.destaques-imprensa{
 /*------------------------------------------------PARCEIROS */
 .info-parceiros ul li img{
     width: 80px ;
-    padding: 20px 0;
+
     
 }
 .info-parceiros {
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: center;
 }
 
@@ -186,4 +187,24 @@ section.destaques-imprensa{
 
 footer {
     background-color: #3f3a3a;
+    color: #ffeded;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+
+}
+.cont-info {
+    width: 220px;
+    padding: 10px 0;
+    text-align: justify;
+
+}
+.cont-info h1 {
+    font-size: 1.5em;
+}
+.cont-info a {
+    color: #ffeded;
+    text-decoration: none;
 }
