@@ -1,0 +1,68 @@
+@use "variables" as *;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    font: {
+        family:$font-stack ;
+        size: 16px;
+    }
+
+}
+header {
+    background-color: $bg-color;
+    nav{
+    display: flex;
+    justify-content: space-between;
+       }
+    li {
+       list-style: none;
+       color: $light-color;
+    }
+}
+section {
+&.container-news {
+background-image: url('../images/landing-page-banner.jpg'); 
+margin: 20px;
+height: 250px;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+max-width: 100%;
+background-size: cover;
+background-position: center;
+border-radius: 20px;
+text-align: start;
+padding: 40px 15px;
+color: $light-color;
+
+}
+a {
+    text-decoration: none;
+    padding: 0.6em 0.9em;
+    width: auto;
+    max-width: 150px;
+    margin: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+ 
+}
+
+}
+section {
+    &.artigos{
+    text-align: center;
+
+    }
+    }   
+    footer
+     address{
+        width: 100%;
+        background-color:rgb(92, 86, 86) ;
+        text-align: center;
+        padding: 10px;
+
+    }

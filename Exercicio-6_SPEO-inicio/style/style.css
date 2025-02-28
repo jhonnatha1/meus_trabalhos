@@ -24,6 +24,7 @@ header {
     column-gap: 20px;
 
 }
+/*-----------------------------grids */
 .c2xr2 {
     grid-column: 2/-1;
 }
@@ -207,4 +208,12 @@ footer {
 .cont-info a {
     color: #ffeded;
     text-decoration: none;
+}
+
+.shadow {
+    text-shadow: 
+    -1px -1px 2px black, 
+     1px -1px 2px black, 
+    -1px  1px 2px black, 
+     1px  1px 2px black;
 }
