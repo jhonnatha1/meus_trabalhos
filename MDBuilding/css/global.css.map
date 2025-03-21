@@ -1,1 +1,0 @@
-{"version":3,"sourceRoot":"","sources":["../scss/_variables.scss","../scss/global.scss"],"names":[],"mappings":"AAAQ;AACA;ACAR;AACA;EACI;EACA;EACA;EACA;;;AAEJ;EACI;EACA;EACA;EACA,aDPa;ECQb;EACA;EACA,ODPU;;ACQV;EACI,aDbS;ECcT;;;AAIR;EACI;EACA;EACA;;;AAGJ;EACI,kBDlBW;ECmBX;EACA;EACA;EACA;EACA,OD3BU","file":"global.css"}
