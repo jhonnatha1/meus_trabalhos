@@ -1,0 +1,49 @@
+@use "variables" as *;
+header {
+    background-color: $light-color ;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    figure {
+        flex: 1;
+        display: flex;
+        align-items: center;
+    }
+
+    nav {
+
+        flex: 2;
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 10px;
+        justify-content: flex-end;
+
+    }
+    header ul {
+        display: none;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 1em;
+        list-style: none;
+        /* flex 1 para ir para a direita "ocupar um espaço */
+    }
+    /*last-child é o ultimo filho, usando essa tag para separa ele das demais */
+
+    img {
+    width: 150px;
+}
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+}
+ul a {
+    text-decoration: none;
+    padding: 10px;
+    color: $black-color;
+    
+}
+
+
+}

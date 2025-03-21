@@ -1,0 +1,60 @@
+header {
+    background-color: #1b461b;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 12px;
+    height: 10vh;
+
+
+    padding: 20px 12px;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+
+header figure {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+header nav {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+
+
+
+}
+header ul {
+    display: none;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 1em;
+    list-style: none;
+    flex: 1;
+    /* flex 1 para ir para a direita "ocupar um espaço */
+}
+/*last-child é o ultimo filho, usando essa tag para separa ele das demais */
+header ul li:last-child{
+    margin-left:auto ;
+}
+div.hamburguer {
+    color: white;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    
+}
+@media screen  and (min-width: 720px) {
+    header ul {
+        display: flex;
+    }
+    div.hamburguer{
+        display: none;
+    }
+}

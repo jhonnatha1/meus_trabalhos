@@ -1,0 +1,27 @@
+@use "variables" as *;
+
+section.informacoes{
+    background-color:$bg-dark-color ; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 300px 300px ;
+   
+    padding: 0 20px;
+
+    img{
+        grid-row: 1/ 4;
+
+    }
+    .infos {
+        width: 100%;
+        grid-column: 2/span 2;
+    }
+
+    aside {
+        img {
+            width: 70px;
+            height: auto;
+    }
+  }
+
+}
