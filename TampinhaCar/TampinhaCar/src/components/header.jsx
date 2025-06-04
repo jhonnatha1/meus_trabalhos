@@ -15,7 +15,7 @@ function Header () {
                 
             </nav> 
             <div className='banner'>
-                <div className='banner.texto'>
+                <div className='banner-texto'>
                     <h1>Dirija um carro à altura do seu estilo.</h1>
                     <p>Conforto, elegância e performance em cada detalhe.</p>
                     <BtnLinkCarros texto="Confira Agora" destino="#" />
