@@ -1,15 +1,17 @@
-.btn-links {
+.btn-links  {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #0077cc;
-  color: white;
+  background-color: #cf0000;
+  color: aliceblue;
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
+  font-size: 1.5em;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .btn-links:hover {
-  background-color: #0368b1;
+  background-color: #e02f2f;
 }
+

@@ -1,0 +1,42 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(540px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.btn {
+/*   margin-top: 0.5rem; */
+  padding: 0.5rem 1rem;
+  background-color: #0099ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Car-Section{
+  background-color: #E0E0E0;
+  color: #000000;
+  padding-top: 10px;
+  text-align: left;
+
+}
+
+.TextDestaques  {
+  margin-left: 5%;
+}

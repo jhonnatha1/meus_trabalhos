@@ -1,12 +1,14 @@
 import React from "react";
-import "./css/search.css"; // você pode criar esse CSS para estilizar depois
-import "./css/form.css"; // você pode criar esse CSS para estilizar depois
+import "../css/search.css"; // você pode criar esse CSS para estilizar depois
+
 
 function PesquisaFiltro() {
   return (
-    <section className="Search-container">
+    <section className="Search-container">      
+    <h1>Encontre o carro que combina com você.</h1>
       <div className="Form-container">
-      <form onSubmit={(e) => e.preventDefault()} className="form-pesquisa">
+  
+      <form onSubmit={(e) => e.preventDefault()} className="Form-search">
         <input
           type="text"
           placeholder="Pesquisar carros..."
@@ -15,10 +17,10 @@ function PesquisaFiltro() {
         <button type="submit" className="btn-search">Pesquisar</button>
       </form>
  
-      <div className="filtros-container">
-        <button className="filtro-btn">SUV</button>
-        <button className="filtro-btn">Hatch</button>
-        <button className="filtro-btn">Sedan</button>
+      <div className="filters-container">
+        <button className="filter-btn">SUV</button>
+        <button className="filter-btn">Hatch</button>
+        <button className="filter-btn">Sedan</button>
       </div>
          </div> 
     </section>

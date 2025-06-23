@@ -1,4 +1,4 @@
-import '../css/btn.css';
+import '../../css/btn.css';
 
 function BtnLinkCarros({ texto, destino }) {
   return (

@@ -1,0 +1,85 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "model": "Fiat Uno",
+      "year": 2015,
+      "km": 82000,
+      "fuel": "Flex",
+      "price": "23.900",
+      "imageUrl": "image.png"
+    },
+    {
+      "id": 2,
+      "model": "Volkswagen Gol",
+      "year": 2018,
+      "km": 60000,
+      "fuel": "Gasolina",
+      "price": "27.500",
+      "imageUrl": "image.png"
+    },
+    {
+      "id": 3,
+      "model": "Ford Ka",
+      "year": 2019,
+      "km": 45000,
+      "fuel": "Flex",
+      "price": "29.000",
+      "imageUrl": "image.png"
+    },
+    {
+      "id": 4,
+      "model": "Chevrolet Onix",
+      "year": 2020,
+      "km": 39000,
+      "fuel": "Flex",
+      "price": "42.000",
+      "imageUrl": "image.png"
+    },
+    {
+      "id": 5,
+      "model": "Renault Kwid",
+      "year": 2021,
+      "km": 25000,
+      "fuel": "Flex",
+      "price": "38.500",
+      "imageUrl": "image.png"
+    },
+    {
+      "id": 6,
+      "model": "Toyota Corolla",
+      "year": 2017,
+      "km": 78000,
+      "fuel": "Gasolina",
+      "price": "59.900",
+      "imageUrl": "image.png"
+    },
+    {
+      "id": 7,
+      "model": "Hyundai HB20",
+      "year": 2016,
+      "km": 92000,
+      "fuel": "Flex",
+      "price": "35.000",
+      "imageUrl": "image.png"
+    },
+    {
+      "id": 8,
+      "model": "Honda Civic",
+      "year": 2015,
+      "km": 85000,
+      "fuel": "Gasolina",
+      "price": "49.000",
+      "imageUrl": "image.png"
+    },
+    {
+      "id": 8,
+      "model": "Honda Civic",
+      "year": 2015,
+      "km": 85000,
+      "fuel": "Gasolina",
+      "price": "49.000",
+      "imageUrl": "image.png"
+    }
+  ]
+}

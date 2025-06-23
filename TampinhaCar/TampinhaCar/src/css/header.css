@@ -1,0 +1,54 @@
+
+/*--------------------------------------NAV */
+nav {
+  
+  position:absolute;
+ /*    width: 100%; */
+    background-color: rgba(0, 0, 0, 0.411);
+    padding: 1.2rem;
+    text-align: left;
+    width: 62%;
+}
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    width: 3%;
+    text-align: center;
+}
+nav a:link{
+    text-decoration: none;
+    color: darkslategray;
+}
+nav a:visited {
+    color: darkgrey;
+}
+nav a:hover {
+    color: tomato;
+}
+nav a.active {
+    color:tomato;
+    font-weight:800;
+}
+
+/* ------------------------------------------ BG e banner */
+header {
+  height: 500px;
+  background: url('/img/carro_fundo.png') no-repeat center center ;
+  background-size: cover;
+  text-align: left;
+  color: aliceblue;
+}
+
+.banner-texto {
+
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+
+
+
+
