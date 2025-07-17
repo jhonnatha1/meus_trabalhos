@@ -1,6 +1,7 @@
 
 /*--------------------------------------NAV */
 nav {
+
   
   position:absolute;
  /*    width: 100%; */
@@ -10,12 +11,14 @@ nav {
     width: 62%;
 }
 nav li {
+    padding-left: 80px;
     list-style-type: none;
     display: inline-block;
-    width: 3%;
+    width: 8%;
     text-align: center;
 }
 nav a:link{
+    font-size: 1.5rem;
     text-decoration: none;
     color: darkslategray;
 }
@@ -32,7 +35,7 @@ nav a.active {
 
 /* ------------------------------------------ BG e banner */
 header {
-  height: 500px;
+  height: 700px;
   background: url('/img/carro_fundo.png') no-repeat center center ;
   background-size: cover;
   text-align: left;
@@ -40,12 +43,13 @@ header {
 }
 
 .banner-texto {
-
-    padding: 100px;
+    padding: 100px ;
+padding-top: 200px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
+ 
+  
 
 }
 

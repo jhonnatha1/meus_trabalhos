@@ -2,9 +2,10 @@
   "cars": [
     {
       "id": 1,
-      "model": "Fiat Uno",
+      "model": "Fiddddat Uno",
       "year": 2015,
       "km": 82000,
+      "categoria": "SUV",
       "fuel": "Flex",
       "price": "23.900",
       "imageUrl": "image.png"
@@ -14,16 +15,17 @@
       "model": "Volkswagen Gol",
       "year": 2018,
       "km": 60000,
+      "categoria": "SUV",
       "fuel": "Gasolina",
       "price": "27.500",
       "imageUrl": "image.png"
     },
     {
       "id": 3,
-      "model": "Ford Ka",
+      "model": "Iares Toyota",
       "year": 2019,
       "km": 45000,
-      "fuel": "Flex",
+   "categoria": "Toyota",
       "price": "29.000",
       "imageUrl": "image.png"
     },
@@ -73,12 +75,21 @@
       "imageUrl": "image.png"
     },
     {
-      "id": 8,
-      "model": "Honda Civic",
-      "year": 2015,
-      "km": 85000,
+      "id": 9,
+      "model": "Nissan Versa",
+      "year": 2019,
+      "km": 30000,
+      "fuel": "Flex",
+      "price": "40.000",
+      "imageUrl": "image.png"
+    },
+    {
+      "id": 10,
+      "model": "Chevrolet Cruze",
+      "year": 2018,
+      "km": 40000,
       "fuel": "Gasolina",
-      "price": "49.000",
+      "price": "45.000",
       "imageUrl": "image.png"
     }
   ]

@@ -65,7 +65,6 @@ a.btn {
     display: flex;
     flex-direction: column;
     gap: 30px;
-
     margin: auto;
     flex-direction: row-reverse;
     justify-content: space-evenly;

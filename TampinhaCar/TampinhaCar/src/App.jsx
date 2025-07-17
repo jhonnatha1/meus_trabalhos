@@ -4,13 +4,14 @@ import { useEffect } from 'react';
 import './App.css';
 import './css/style.css'
 import CarDashboard from './components/CarDashboard';
-import Home from './pages/Home';
-import Carros from './pages/Carros';
+/* import Home from './pages/home'; */
+import Carros from './pages/carros';
 import Contato from './pages/Contactos';
 import Admin from './pages/Admin';
 
 import Header from './components/Header';
 import Nav from './components/Nav';
+import Infos from './components/Infos';
 import Footer from './components/Footer';
 import SearchFilter from './components/SearchFilter';
 
@@ -38,19 +39,20 @@ function MainLayout() {
           <Header />
           {/*     <SearchFilter />  */}
             <CarDashboard />
-  
+            <Infos />
+        <Footer />
         </>
       )}
 
 
       <Routes>
-        <Route path="/" element={<Home />} />
+   {/*      <Route path="/" element={<Home />} /> */}
         <Route path="/carros" element={<Carros />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="/admin" element={<Admin />} />
       </Routes>
 
-      <Footer />
+
     </>
   );
 }

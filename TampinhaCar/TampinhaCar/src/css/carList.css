@@ -5,6 +5,17 @@
   padding: 1rem;
 }
 
+.TextDestaques {
+  height: 300px;
+  background: url('/img/vehicle-loans.webp') no-repeat center center ;
+  background-size: cover;
+  text-align: left;
+  color: aliceblue;
+  padding-left: 4%;
+
+  }
+
+
 .card {
   border: 1px solid #ddd;
   border-radius: 10px;
@@ -36,7 +47,71 @@
   text-align: left;
 
 }
+/* /--------------------------------------------- */
 
-.TextDestaques  {
-  margin-left: 5%;
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: auto;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    text-align: left;
+    align-items: flex-start;
+
+}
+.img-carro {
+  width: 500px;
+}
+
+.container:nth-child(even) {
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+.paginacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 20px 0;
+}
+
+.paginacao button {
+  padding: 8px 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.paginacao button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.paginacao button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.paginacao button.ativo {
+  background-color: #28a745; /* verde para página atual */
+  cursor: default;
 }
