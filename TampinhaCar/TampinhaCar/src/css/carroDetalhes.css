@@ -1,0 +1,48 @@
+.carro-detalhes-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.carro-detalhes-container h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.carro-detalhes-imagem {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto 1.5rem auto;
+  border-radius: 10px;
+}
+
+.carro-detalhes-container p {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+
+.outras-fotos {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ccc;
+}
+
+.outras-fotos h3 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.outras-fotos img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}

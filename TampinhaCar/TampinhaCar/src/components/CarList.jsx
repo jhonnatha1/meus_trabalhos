@@ -1,5 +1,5 @@
 import '../css/carList.css'; // Garante que o CSS seja carregado
-
+import { Link } from "react-router-dom";
 export default function CarList({ cars }) {
   return (
     <section className="Car-Section">
@@ -12,7 +12,9 @@ export default function CarList({ cars }) {
             <p>KM: {car.km} km</p>
             <p>Combustível: {car.fuel}</p>
             <p><strong>Valor: € {car.price}</strong></p>
-            <button className="btn">Entrar em contato</button>
+            <Link to={`/carro/${car.id}`}>
+           <button className="btn">Ver detalhes</button>
+           </Link>
           </article>
         ))}
       </div>
