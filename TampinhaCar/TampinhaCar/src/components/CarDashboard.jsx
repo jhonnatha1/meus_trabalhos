@@ -1,16 +1,10 @@
-import { useEffect, useState } from 'react';
 import CarList from './CarList';
 import BtnLinkCarros from './btns/btnLinkCarros';
+import { useSelector } from 'react-redux';
 
 export default function CarDashboard() {
-  const [carros, setCarros] = useState([]);
-
-  useEffect(() => {
-    fetch('http://localhost:3001/cars')
-      .then(res => res.json())
-      .then(data => setCarros(data)) // <-- sem .cars aqui
-      .catch(err => console.error("Erro ao carregar os carros:", err));
-  }, []);
+  const carros = useSelector((state) => state.carros.todosCarros);
+  const loading = useSelector((state) => state.carros.loading);
 
   return (
     <section className='Car-Section'>
@@ -19,7 +13,8 @@ export default function CarDashboard() {
         <h2>Descubra toda a nossa linha </h2> 
         <BtnLinkCarros texto="Confira Agora" destino="/carros" />
       </div>
-      <CarList cars={carros} limit={8} />
+      {!loading && <CarList cars={carros} limit={8} />}
+      {loading && <p>A carregar carros...</p>}
     </section>
   );
 }

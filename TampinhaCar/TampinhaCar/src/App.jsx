@@ -11,10 +11,18 @@ import Contato from './pages/Contactos';
 import Admin from './pages/Admin';
 import CarroDetalhes from './pages/CarroDetalhes';
 import Home from './pages/home';
+import { useDispatch } from 'react-redux';
+import { useEffect } from 'react';
+import { fetchData } from './redux/slices/carrosSlice';
+
 function MainLayout() {
   const location = useLocation();
-
   const isHome = location.pathname === "/";
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(fetchData());
+  }, [dispatch]);
 
   return (
     <>
@@ -30,7 +38,7 @@ function MainLayout() {
       )}
 
       <Routes>
-          <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/carro/:id" element={<CarroDetalhes />} />
         <Route path="/carros" element={<Carros />} />
         <Route path="/contato" element={<Contato />} />
