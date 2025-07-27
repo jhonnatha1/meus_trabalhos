@@ -2,6 +2,7 @@
   "cars": [
     {
       "id": 1,
+      "name": "Nome do carro 1",
       "model": "Fiddddat Uno",
       "year": 2015,
       "km": 82000,
@@ -12,6 +13,7 @@
     },
     {
       "id": 2,
+      "name": "Nome do carro 2",
       "model": "Volkswagen Gol",
       "year": 2018,
       "km": 60000,
@@ -22,15 +24,17 @@
     },
     {
       "id": 3,
+      "name": "Nome do carro 3",
       "model": "Iares Toyota",
       "year": 2019,
       "km": 45000,
-   "categoria": "Toyota",
+      "categoria": "Toyota",
       "price": "29.000",
       "imageUrl": "image.png"
     },
     {
       "id": 4,
+      "name": "Nome do carro 4",
       "model": "Chevrolet Onix",
       "year": 2020,
       "km": 39000,
@@ -40,6 +44,7 @@
     },
     {
       "id": 5,
+      "name": "Nome do carro 5",
       "model": "Renault Kwid",
       "year": 2021,
       "km": 25000,
@@ -49,6 +54,7 @@
     },
     {
       "id": 6,
+      "name": "Nome do carro 6",
       "model": "Toyota Corolla",
       "year": 2017,
       "km": 78000,
@@ -58,6 +64,7 @@
     },
     {
       "id": 7,
+      "name": "Nome do carro 7",
       "model": "Hyundai HB20",
       "year": 2016,
       "km": 92000,
@@ -67,6 +74,7 @@
     },
     {
       "id": 8,
+      "name": "Nome do carro 8",
       "model": "Honda Civic",
       "year": 2015,
       "km": 85000,
@@ -76,6 +84,7 @@
     },
     {
       "id": 9,
+      "name": "Nome do carro 9",
       "model": "Nissan Versa",
       "year": 2019,
       "km": 30000,
@@ -85,6 +94,7 @@
     },
     {
       "id": 10,
+      "name": "Nome do carro 10",
       "model": "Chevrolet Cruze",
       "year": 2018,
       "km": 40000,
