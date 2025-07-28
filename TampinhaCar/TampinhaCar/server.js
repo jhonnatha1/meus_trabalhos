@@ -9,5 +9,5 @@ server.use(middlewares);
 server.use(router);
 
 server.listen(3001, () => {
-  console.log('🔥 JSON Server rodando em http://localhost:3001, Vida!');
+  console.log(' JSON Server rodando em http://localhost:3001, ');
 });

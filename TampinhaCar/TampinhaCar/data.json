@@ -2,19 +2,19 @@
   "cars": [
     {
       "id": 1,
-      "name": "Nome do carro 1",
-      "model": "Fiddddat Uno",
+      "name": "Mini Cooper",
+      "model": "bmw",
       "year": 2015,
       "km": 82000,
       "categoria": "SUV",
       "fuel": "Flex",
       "price": "23.900",
-      "imageUrl": "image.png"
+      "imageUrl": "mini-cooper.jpg"
     },
     {
       "id": 2,
-      "name": "Nome do carro 2",
-      "model": "Volkswagen Gol",
+      "name": "Toyota",
+      "model": "Yaris",
       "year": 2018,
       "km": 60000,
       "categoria": "SUV",
@@ -102,5 +102,47 @@
       "price": "45.000",
       "imageUrl": "image.png"
     }
-  ]
+  ],
+  "galeria": [
+  { "id": 1, "carroId": 1, "url": "/Modelos-img/mini-cooper.jpg" },
+  { "id": 2, "carroId": 1, "url": "/Modelos-img/mini-cooper2.jpg" },
+  { "id": 3, "carroId": 1, "url": "/Modelos-img/mini-cooper3.jpg" },
+  { "id": 3, "carroId": 1, "url": "/Modelos-img/mini-cooper4.jpg" },
+
+  { "id": 4, "carroId": 2, "url": "/Modelos-img/carro-2-1.jpg" },
+  { "id": 5, "carroId": 2, "url": "/Modelos-img/carro-2-2.jpg" },
+  { "id": 6, "carroId": 2, "url": "/Modelos-img/carro-2-3.jpg" },
+
+  { "id": 7, "carroId": 3, "url": "/Modelos-img/carro-3-1.jpg" },
+  { "id": 8, "carroId": 3, "url": "/Modelos-img/carro-3-2.jpg" },
+  { "id": 9, "carroId": 3, "url": "/Modelos-img/carro-3-3.jpg" },
+
+  { "id": 10, "carroId": 4, "url": "/Modelos-img/carro-4-1.jpg" },
+  { "id": 11, "carroId": 4, "url": "/Modelos-img/carro-4-2.jpg" },
+  { "id": 12, "carroId": 4, "url": "/Modelos-img/carro-4-3.jpg" },
+
+  { "id": 13, "carroId": 5, "url": "/Modelos-img/carro-5-1.jpg" },
+  { "id": 14, "carroId": 5, "url": "/Modelos-img/carro-5-2.jpg" },
+  { "id": 15, "carroId": 5, "url": "/Modelos-img/carro-5-3.jpg" },
+
+  { "id": 16, "carroId": 6, "url": "/Modelos-img/carro-6-1.jpg" },
+  { "id": 17, "carroId": 6, "url": "/Modelos-img/carro-6-2.jpg" },
+  { "id": 18, "carroId": 6, "url": "/Modelos-img/carro-6-3.jpg" },
+
+  { "id": 19, "carroId": 7, "url": "/Modelos-img/carro-7-1.jpg" },
+  { "id": 20, "carroId": 7, "url": "/Modelos-img/carro-7-2.jpg" },
+  { "id": 21, "carroId": 7, "url": "/Modelos-img/carro-7-3.jpg" },
+
+  { "id": 22, "carroId": 8, "url": "/Modelos-img/carro-8-1.jpg" },
+  { "id": 23, "carroId": 8, "url": "/Modelos-img/carro-8-2.jpg" },
+  { "id": 24, "carroId": 8, "url": "/Modelos-img/carro-8-3.jpg" },
+
+  { "id": 25, "carroId": 9, "url": "/Modelos-img/carro-9-1.jpg" },
+  { "id": 26, "carroId": 9, "url": "/Modelos-img/carro-9-2.jpg" },
+  { "id": 27, "carroId": 9, "url": "/Modelos-img/carro-9-3.jpg" },
+
+  { "id": 28, "carroId": 10, "url": "/Modelos-img/carro-10-1.jpg" },
+  { "id": 29, "carroId": 10, "url": "/Modelos-img/carro-10-2.jpg" },
+  { "id": 30, "carroId": 10, "url": "/Modelos-img/carro-10-3.jpg" }
+]
 }
