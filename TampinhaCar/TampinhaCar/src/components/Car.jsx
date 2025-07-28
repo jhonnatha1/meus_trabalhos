@@ -3,7 +3,7 @@ export default function Car({ car }) {
 
   return (
     <article className="card">
-      <img src={`/Modelos-img/${imageUrl}`} alt={model} />
+      <img src={`/Modelos/${imageUrl}`} alt={model} />
       <h3>{model}</h3>
       <p>Ano: {year}</p>
       <p>KM: {km} km</p>

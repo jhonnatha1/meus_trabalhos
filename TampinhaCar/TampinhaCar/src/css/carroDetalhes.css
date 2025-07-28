@@ -1,0 +1,37 @@
+.galeria-container {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.imagem-destaque img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px #0003;
+}
+
+.miniaturas {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.miniatura {
+  width: 80px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.7;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.miniatura:hover,
+.miniatura.ativa {
+  opacity: 1;
+  border-color: #007bff;
+}
