@@ -56,8 +56,8 @@
 /* ========================= */
 .miniatura {
   flex: 0 0 auto;
-  width: 168px;   /* 80px * 2.1 */
-  height: 126px;  /* 60px * 2.1 */
+  width: 202px;   /* 80px * 2.52 */
+  height: 151px;  /* 60px * 2.52 */
   object-fit: cover;
   border-radius: 5px;
   cursor: pointer;

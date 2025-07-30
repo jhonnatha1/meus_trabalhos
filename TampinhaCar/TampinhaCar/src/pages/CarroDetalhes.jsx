@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import GaleriaCarro from "../components/GaleriaCarro";
 import FormContact from "../components/FormContact.jsx";
-
+import Footer from "../components/Footer"
 import "../css/carroDetalhes.css";
 import "../css/galeriaFotos.css";
 
@@ -45,15 +45,13 @@ function CarroDetalhes() {
       carro={carro} 
       />
 <section className="info-carro">
-  <p><strong>Modelo:</strong> {carro.model}</p>
-  <p><strong>Ano:</strong> {carro.year}</p>
-  <p><strong>KM:</strong> {carro.km} km</p>
-  <p><strong>Combustível:</strong> {carro.fuel}</p>
-  <p><strong>Valor:</strong> € {carro.price}</p>
-  <p><strong>Descrição:</strong> {carro.descricao}</p>
+  <h1><strong>Descrição:</strong> </h1>
+  <p>{carro.descricao}</p>
 </section>
 
 </section>
+      <Footer />
+
     </>
   );
 }
