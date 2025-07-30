@@ -3,8 +3,8 @@ iniciar servidor de data.json
 iniciar terminal em /tampinhaCar
 json-server --watch "data.json" --port 3001
 
-iniciar vite
 
+iniciar vite
 iniciar terminal em /src
 
 npm rum dev 

@@ -3,8 +3,7 @@ import "../css/carroDetalhes.css";
 
 function GaleriaCarro({ imagens, imagemDestaque, setImagemDestaque, nome }) {
   return (
-    <section className="galeria-container">
-      <h1>Galeria de Imagens</h1>
+    <section className="galeria-container box">
       <div className="imagem-destaque">
         <img src={`/Modelos/${imagemDestaque}`} alt={`${nome} destaque`} />
       </div>

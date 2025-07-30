@@ -1,5 +1,6 @@
 {
   "cars": [
+    
     {
       "id": 1,
       "name": "Mini Cooper",
@@ -9,6 +10,9 @@
       "categoria": "SUV",
       "fuel": "Flex",
       "price": "23.900",
+        "estado": "usado",
+        "telefone": "912345678",
+       "whatsapp": "912345678",
       "imageUrl": "mini-cooper.jpg",
       "descricao": "Compacto e esportivo, o Mini Cooper entrega estilo e desempenho para quem gosta de dirigir com personalidade.",
       "images": [
@@ -25,6 +29,10 @@
       "categoria": "Hatch",
       "fuel": "Gasolina",
       "price": "27.500",
+        "estado": "novo",
+        "telefone": "912345678",
+       "whatsapp": "912345678",
+      
       "imageUrl": "image.png",
       "descricao": "O Toyota Yaris é econômico, confortável e perfeito para o uso urbano com ótima eficiência de combustível.",
       "images": [
@@ -41,6 +49,10 @@
       "categoria": "Sedan",
       "fuel": "Flex",
       "price": "29.000",
+        "estado": "novo",
+        "telefone": "912345678",
+       "whatsapp": "912345678",
+      
       "imageUrl": "image.png",
       "descricao": "Com espaço interno generoso e design moderno, o Yaris Sedan é ideal para quem busca conforto e economia.",
       "images": [
@@ -57,6 +69,10 @@
       "categoria": "Hatch",
       "fuel": "Flex",
       "price": "42.000",
+        "estado": "novo",
+        "telefone": "912345678",
+       "whatsapp": "912345678",
+      
       "imageUrl": "image.png",
       "descricao": "O hatch mais vendido do Brasil! Conectividade, conforto e economia juntos em um só carro.",
       "images": [
@@ -73,6 +89,10 @@
       "categoria": "SUV Compacto",
       "fuel": "Flex",
       "price": "38.500",
+        "estado": "novo",
+        "telefone": "912345678",
+       "whatsapp": "912345678",
+      
       "imageUrl": "image.png",
       "descricao": "Compacto com visual robusto, o Kwid é ideal para a cidade, com excelente consumo e manutenção barata.",
       "images": [
@@ -89,6 +109,10 @@
       "categoria": "Sedan",
       "fuel": "Gasolina",
       "price": "59.900",
+        "estado": "novo",
+        "telefone": "912345678",
+       "whatsapp": "912345678",
+      
       "imageUrl": "image.png",
       "descricao": "Referência em conforto e durabilidade, o Corolla é o sedan mais confiável do mercado brasileiro.",
       "images": [
@@ -105,6 +129,10 @@
       "categoria": "Hatch",
       "fuel": "Flex",
       "price": "35.000",
+        "estado": "novo",
+        "telefone": "912345678",
+       "whatsapp": "912345678",
+      
       "imageUrl": "image.png",
       "descricao": "Design moderno, motor eficiente e ótimo custo-benefício. O HB20 é uma excelente opção para quem busca um carro completo.",
       "images": [
@@ -121,6 +149,10 @@
       "categoria": "Sedan",
       "fuel": "Gasolina",
       "price": "49.000",
+        "estado": "novo",
+        "telefone": "912345678",
+       "whatsapp": "912345678",
+      
       "imageUrl": "image.png",
       "descricao": "O Civic une esportividade, tecnologia e conforto em um sedan que é sinônimo de status e confiança.",
       "images": [
@@ -137,6 +169,10 @@
       "categoria": "Sedan",
       "fuel": "Flex",
       "price": "40.000",
+        "estado": "novo",
+        "telefone": "912345678",
+       "whatsapp": "912345678",
+      
       "imageUrl": "image.png",
       "descricao": "Espaçoso, econômico e com ótimo desempenho. O Versa é ideal para famílias ou motoristas de aplicativo.",
       "images": [
@@ -153,6 +189,10 @@
       "categoria": "Sedan",
       "fuel": "Gasolina",
       "price": "45.000",
+        "estado": "novo",
+        "telefone": "912345678",
+       "whatsapp": "912345678",
+      
       "imageUrl": "image.png",
       "descricao": "Moderno, confortável e com ótima performance. O Cruze entrega dirigibilidade com estilo e segurança.",
       "images": [

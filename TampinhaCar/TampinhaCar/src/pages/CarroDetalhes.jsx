@@ -3,7 +3,10 @@ import Header from '../components/Header';
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import GaleriaCarro from "../components/GaleriaCarro";
+import FormContact from "../components/FormContact.jsx";
+
 import "../css/carroDetalhes.css";
+import "../css/galeriaFotos.css";
 
 function CarroDetalhes() {
   const { id } = useParams();
@@ -28,25 +31,29 @@ function CarroDetalhes() {
   if (!carro) {
     return <p>Carro não encontrado.</p>;
   }
-
   return (
     <>
       <Header />
+      <section    className= 'container-detalhes'>
       <GaleriaCarro
         imagens={carro.images}
         imagemDestaque={imagemDestaque}
         setImagemDestaque={setImagemDestaque}
         nome={carro.name}
       />
-      <section className="info-carro">
-        <h1>{carro.name}</h1>
-        <p>Modelo: {carro.model}</p>
-        <p>Ano: {carro.year}</p>
-        <p>KM: {carro.km} km</p>
-        <p>Combustível: {carro.fuel}</p>
-        <p><strong>Valor: € {carro.price}</strong></p>
-        <p>{carro.descricao}</p>
-      </section>
+      <FormContact 
+      carro={carro} 
+      />
+<section className="info-carro">
+  <p><strong>Modelo:</strong> {carro.model}</p>
+  <p><strong>Ano:</strong> {carro.year}</p>
+  <p><strong>KM:</strong> {carro.km} km</p>
+  <p><strong>Combustível:</strong> {carro.fuel}</p>
+  <p><strong>Valor:</strong> € {carro.price}</p>
+  <p><strong>Descrição:</strong> {carro.descricao}</p>
+</section>
+
+</section>
     </>
   );
 }
