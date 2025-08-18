@@ -9,19 +9,24 @@ export default function CarList({ cars, limit }) {
 <article key={car.id} className="card">
   <img src={`/Modelos/${car.imageUrl}`} alt={car.model} className="img-carro" />
   <h1>{car.name} {car.model}</h1>
-
+<section className='info-icons'>
   <div className="info-row">
-    <span className="icon">📅</span>
-    <span>Ano: {car.year}</span>
+    <span className="icon"><img src="/icons-cars/year.svg" alt="Ícone kms" /></span>
+    <span> {car.year}</span>
   </div>
   <div className="info-row">
-    <span className="icon">🚗</span>
-    <span>Km: {car.km} km</span>
+    <span className="icon"><img src="/icons-cars/kms.svg" alt="Ícone kms" /></span>
+    <span> {car.km} </span>
   </div>
   <div className="info-row">
-    <span className="icon">⛽</span>
-    <span>Combustível: {car.fuel}</span>
+    <span className="icon"><img src="/icons-cars/Subtract.svg" alt="Ícone combustivel" /></span>
+    <span> {car.fuel}</span>
   </div>
+  <div className="info-row">
+    <span className="icon"><img src="/icons-cars/type.svg" alt="Ícone combustivel" /></span>
+    <span> {car.categoria}</span>
+  </div>
+  </section>
   <div className="info-row">
     <span className="icon">💰</span>
     <span>Valor: € {car.price}</span>
