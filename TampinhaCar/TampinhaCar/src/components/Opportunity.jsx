@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; 
 import '../css/Opportunity.css';
 
 export default function Opportunity({ car }) {
@@ -6,20 +6,47 @@ export default function Opportunity({ car }) {
 
   return (
     <section className="opportunity">
-      <div className="car-highlight">
-        <div className="car-info">
+      <div className="car-highlight-Opportunity">
+        <div className="car-info-Opportunity">
           <h3>{car.name} {car.model}</h3>
-          <p><strong>Ano:</strong> {car.year}</p>
-          <p><strong>KM:</strong> {car.km} km</p>
-          <p><strong>Combustível:</strong> {car.fuel}</p>
-          <p><strong>Valor:</strong> € {car.price}</p>
+
+          <section className="info-icons-Opportunity">
+            <div className="info-row-Opportunity">
+              <span className="icon-Opportunity">
+                <img src="/icons-cars/year.svg" alt="Ano" />
+              </span>
+              <span>{car.year}</span>
+            </div>
+            <div className="info-row-Opportunity">
+              <span className="icon-Opportunity">
+                <img src="/icons-cars/kms.svg" alt="Kms" />
+              </span>
+              <span>{car.km}</span>
+            </div>
+            <div className="info-row-Opportunity">
+              <span className="icon-Opportunity">
+                <img src="/icons-cars/Subtract.svg" alt="Combustível" />
+              </span>
+              <span>{car.fuel}</span>
+            </div>
+            <div className="info-row-Opportunity">
+              <span className="icon-Opportunity">
+                <img src="/icons-cars/type.svg" alt="Categoria" />
+              </span>
+              <span>{car.categoria}</span>
+            </div>
+          </section>
+
+          <p className="price-Opportunity">€ {car.price}</p>
+
           <Link to={`/carro/${car.id}`}>
-            <button className="btn-opportunity">Ver Detalhes</button>
+            <button className="btn-Opportunity">Ver Detalhes</button>
           </Link>
         </div>
-        <div className="img-container">
+
+        <div className="img-container-Opportunity">
           <img src={`/Modelos/${car.imageUrl}`} alt={car.model} />
-          <span className="label-opportunity">Oportunidade do Dia</span>
+          <span className="label-Opportunity">Oportunidade do Dia</span>
         </div>
       </div>
     </section>

@@ -3,7 +3,8 @@
   flex-wrap: wrap;
   width: 80%;
   margin: auto;
-  gap: 0; /* nada entre caixas */
+  gap: 0;
+  /* nada entre caixas */
   padding: 0;
   box-sizing: border-box;
 }
@@ -11,15 +12,17 @@
 .box {
   width: 50%;
   background-color: #e0e0e0;
-  padding: 0.3rem; /* pouco espaçamento interno */
+  padding: 0.3rem;
+  /* pouco espaçamento interno */
   margin: 0;
   border-radius: 8px;
   text-align: center;
   box-sizing: border-box;
 }
 
-.box > * {
-  margin: 0; /* zera margens internas dos filhos */
+.box>* {
+  margin: 0;
+  /* zera margens internas dos filhos */
   padding: 0;
 }
 
@@ -31,4 +34,3 @@
   border-radius: 8px;
   box-sizing: border-box;
 }
-

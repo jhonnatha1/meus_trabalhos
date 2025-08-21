@@ -1,58 +1,52 @@
-
 /*--------------------------------------NAV */
 nav {
-
-  
-  position:absolute;
- /*    width: 100%; */
+    position: absolute;
+    /* width: 100%; */
     background-color: rgba(0, 0, 0, 0.411);
-    padding: 1.2rem ;
+    padding: 1.2rem;
     text-align: left;
     width: 100%;
 }
+
 nav li {
-    padding-left: 80px;
+    padding-left: 40px;
     list-style-type: none;
     display: inline-block;
- 
     text-align: center;
 }
-nav a:link{
+
+nav a:link {
     font-size: 1.5rem;
     text-decoration: none;
     color: darkslategray;
 }
+
 nav a:visited {
     color: darkgrey;
 }
+
 nav a:hover {
     color: tomato;
 }
+
 nav a.active {
-    color:tomato;
-    font-weight:800;
+    color: tomato;
+    font-weight: 800;
 }
 
 /* ------------------------------------------ BG e banner */
 header {
-  height: 700px;
-  background: url('/img/carro_fundo.png') no-repeat center center ;
-  background-size: cover;
-  text-align: left;
-  color: aliceblue;
+    height: 500px;
+    background: url('/img/carro_fundo.png') no-repeat center center;
+    background-size: cover;
+    text-align: left;
+    color: aliceblue;
 }
 
 .banner-texto {
-    padding: 100px ;
-    padding-top: 200px;
+    padding: 50px;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
- 
-  
-
 }
-
-
-
-

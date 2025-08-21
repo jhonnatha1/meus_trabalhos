@@ -6,35 +6,38 @@
   margin: 20px auto;
 }
 
-
 /* ========================= */
 /* 🖼️ IMAGEM DESTAQUE - FOTO GRANDE DO CARRO */
 /* ========================= */
 .imagem-destaque img {
   width: 100%;
-  max-height: 840px; /* 400px * 2.1 */
+  max-height: 840px;
+  /* 400px * 2.1 */
   object-fit: contain;
   border-radius: 8px;
   margin-bottom: 10px;
   box-shadow: 0 0 10px #0003;
 }
 
-
 /* ========================= */
 /* 📷 MINIATURAS - THUMBNAILS COM SCROLL HORIZONTAL */
 /* ========================= */
 .miniaturas {
   display: flex;
-  flex-wrap: nowrap;               /* mantém todas na mesma linha */
-  overflow-x: auto;                /* scroll horizontal se necessário */
+  flex-wrap: nowrap;
+  /* mantém todas na mesma linha */
+  overflow-x: auto;
+  /* scroll horizontal se necessário */
   gap: 10px;
   justify-content: flex-start;
-  padding-bottom: 10px;            /* espaço para barra de rolagem */
+  padding-bottom: 10px;
+  /* espaço para barra de rolagem */
   -webkit-overflow-scrolling: touch;
-  scrollbar-width: thin;           /* Firefox */
-  scrollbar-color: #333333 transparent; /* cor da barra no Firefox */
+  scrollbar-width: thin;
+  /* Firefox */
+  scrollbar-color: #333333 transparent;
+  /* cor da barra no Firefox */
 }
-
 
 /* 🎛️ SCROLLBAR PERSONALIZADA (Webkit - Chrome/Safari/Edge) */
 .miniaturas::-webkit-scrollbar {
@@ -50,14 +53,15 @@
   background: transparent;
 }
 
-
 /* ========================= */
 /* 🖼️ MINIATURA INDIVIDUAL - CADA FOTO PEQUENA */
 /* ========================= */
 .miniatura {
   flex: 0 0 auto;
-  width: 202px;   /* 80px * 2.52 */
-  height: 151px;  /* 60px * 2.52 */
+  width: 202px;
+  /* 80px * 2.52 */
+  height: 151px;
+  /* 60px * 2.52 */
   object-fit: cover;
   border-radius: 5px;
   cursor: pointer;

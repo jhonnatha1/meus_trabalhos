@@ -1,15 +1,11 @@
 * {
- 
-    max-width: 2400px;
-    padding: 0;
-    border: none;
-    box-sizing: border-box;
-  }
-#root {
-    
-/*   margin: 0 auto; */
-  text-align: center;
- 
+  max-width: 2400px;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
 }
 
-
+#root {
+  /* margin: 0 auto; */
+  text-align: center;
+}

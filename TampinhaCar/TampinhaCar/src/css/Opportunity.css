@@ -1,73 +1,104 @@
 .opportunity {
-  margin-bottom: 2rem;
-  padding: 20px;
+  margin-bottom: 1rem;
+  padding: 10px;
   background-color: #f5f5f5;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
-.car-highlight {
+.car-highlight-Opportunity {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: 10px;
 }
 
-.car-info {
+.car-info-Opportunity {
   flex: 1;
-  font-size: 1.8rem; 
+  font-size: 0.9rem;
   color: #333;
 }
 
-.car-info h3 {
+.car-info-Opportunity h3 {
   margin-bottom: 0.5rem;
-  font-size: 4.8rem;
+  font-size: 2rem;
+  text-align: center;
 }
 
-.car-info p {
-  margin: 0.3rem 0;
-  font-size: 2.8rem; 
-}
-
-.img-container {
-  position: relative;
-  width: 1200px;   
-  max-width: 100%; 
+/* 🔥 Ícones ajustados */
+.info-icons-Opportunity {
+  background-color: rgba(209, 209, 209, 0.582);
+  display: flex; /* troquei grid por flex */
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
+  padding: 2.5px;
+  gap: 2.6rem; /* menos espaço entre ícones */
+  flex-wrap: wrap; /* quebra em linha se faltar espaço */
+}
+
+.info-row-Opportunity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.15rem; /* diminui espaço entre ícone e texto */
+  font-size: 0.9rem; /* legenda menor */
+  color: #333;
+}
+
+.icon-Opportunity img {
+  width: 25px; /* ícones menores */
+  height: 25px;
+}
+
+.price-Opportunity {
+  margin: 0.15rem 0;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+  color: #e60b0b;
+}
+
+.img-container-Opportunity {
+  position: relative;
+  width: 600px;
+  max-width: 100%;
+  border-radius: 15px;
   overflow: hidden;
 }
 
-.img-container img {
+.img-container-Opportunity img {
   width: 100%;
   height: auto;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
-.label-opportunity {
+.label-Opportunity {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: #0047abcc; /* azul com transparência */
+  background-color: #0047abcc;
   color: white;
-  padding: 10px 20px;
-  font-size: 2.5rem;
+  padding: 5px 10px;
+  font-size: 1.25rem;
   font-weight: bold;
   user-select: none;
-  border-top-right-radius: 10px;
+  border-top-right-radius: 5px;
 }
-  
-.btn-opportunity {
-  margin-top: 1rem;
-  padding: 0.7rem 1.8rem; 
+
+.btn-Opportunity {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
   background-color: #e60b0b;
   color: white;
   border: none;
-  border-radius: 6px;
+  border-radius: 20px;
   cursor: pointer;
-  font-size: 1.8rem; 
+  font-size: 1rem;
   transition: background-color 0.3s ease;
 }
 
-.btn-opportunity:hover {
+.btn-Opportunity:hover {
   background-color: #b00707;
 }
