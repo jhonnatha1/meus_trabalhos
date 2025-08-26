@@ -1,0 +1,85 @@
+.reservas-container {
+  color: #fff;
+}
+
+.reservas-lista {
+  list-style: none;
+  padding: 0;
+}
+
+.reserva {
+  border: 1px solid #646cff;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.reserva-info {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reserva-detalhes {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.reserva-icone {
+  margin-right: 5px;
+}
+
+.reserva-mensagem {
+  margin-top: 5px;
+  font-style: italic;
+}
+
+/* Botões aparecem apenas quando clicada */
+.reserva-botoes {
+  margin-top: 10px;
+}
+
+.reserva-botoes button {
+  margin-right: 10px;
+  border-radius: 8px;
+  padding: 0.4em 0.8em;
+  cursor: pointer;
+  background-color: #646cff;
+  border: none;
+  color: #fff;
+  transition: background-color 0.2s;
+}
+
+.reserva-botoes button:hover {
+  background-color: #535bf2;
+}
+
+/* Status colors */
+.reserva.confirmada {
+  background-color: #1a1a1a;
+}
+
+.reserva.pendente {
+  background-color: #333;
+}
+
+.reserva.cancelada {
+  background-color: #8b0000;
+}
+
+.recarregar {
+  margin-top: 10px;
+  border-radius: 8px;
+  padding: 0.5em 1em;
+  background-color: #646cff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.recarregar:hover {
+  background-color: #535bf2;
+}
